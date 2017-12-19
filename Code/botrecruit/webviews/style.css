@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.4);
+     margin:  10px auto auto 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 25px;
+    color: #fff;
+
+}
+
+
+/* Container */
+
+.container{
+    width: 90%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    border:  3px solid #476f67;
+    border-radius: 15px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.container:first-child{
+    border-top: 3px solid #476f67;
+}
+
+.container:nth-child(3){
+    border-bottom: 3px solid #476f67;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    height: 150px;
+}
+
+.left{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: #476F67;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 40px;
+    padding-top: 15%;
+}
+
+.rigth{
+    width: 40%;
+    height: 100%;
+    float:  right;
+}
+
+/* Descrição */
+
+p{
+    text-align: justify;
+    padding: 2% 6% 2% 6%; 
+}
+
+.descricao img{
+    width: 20%;
+}
+
+/* Rodapé */
+
+.rodape{
+    height: 50px;
+}
+
+.left_rodape{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.rigth_rodape{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #476F67;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+}
+
+h2{
+    color:  #476F67;
+    font-size: 1.5em;
+    float: right;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+h3{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+
+@media screen and (min-width: 480px){
+    .left{
+        padding-top: 10%;
+    }
+
+    .rodape{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 640px){
+    .left{
+        padding-top: 8%;
+    }
+
+     h2{
+        margin-top: 45px;
+        margin-right: 100px;
+    }
+
+    .rodape{
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    body{
+        width: 80%;
+    }
+
+    .left{
+        padding-top: 6%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    body{
+        width: 70%;
+    }
+
+    .descricao img{
+        width: 15%;
+    }
+
+    h2{
+        margin-top: 20px;
+        margin-right: 130px;
+    }
+
+    h3{
+        text-align: center;
+        margin-left: 280px;
+        margin-top: -20px;
+    }
+
+    .rodape{
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 1360px){
+
+    body{
+        width: 70%;
+    }
+
+    .left{
+        padding-top: 4%;
+    }
+
+    .descricao img{
+        width: 10%;
+    }
+
+      .rodape{
+        height: 94px;
+    }
+
+     h2{
+        margin-right: 180px;
+        margin-top: 10px;
+    }
+
+    h3{
+        text-align: center;
+        margin-left: 280px;
+        margin-top: -30px;
+    }
+
+}
