@@ -1,5 +1,8 @@
 <?php
-
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class VagaController{
 
   private $vagaModel = null;

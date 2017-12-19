@@ -1,5 +1,8 @@
 <?php
-
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class AreaModel{
 
 	private $conn = null;

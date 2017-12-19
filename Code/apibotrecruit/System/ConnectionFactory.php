@@ -1,4 +1,8 @@
 <?php
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class ConnectionFactory{
 
 	const USER = "bot";

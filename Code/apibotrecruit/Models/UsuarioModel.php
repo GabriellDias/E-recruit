@@ -1,5 +1,8 @@
 <?php
-
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class UsuarioModel{
 
 	private $conn = null;

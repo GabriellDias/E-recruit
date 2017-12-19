@@ -1,4 +1,7 @@
 <?php
+/*
+ *   Author: Samuel de Souza Silva
+ */
 //Define o diretorio raiz do sistema
 define('DIR_RAIZ', dirname(__FILE__));
 define('DS', DIRECTORY_SEPARATOR);

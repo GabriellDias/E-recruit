@@ -1,5 +1,8 @@
 <?php
-
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class EntrevistaModel{
 
 	private $conn = null;

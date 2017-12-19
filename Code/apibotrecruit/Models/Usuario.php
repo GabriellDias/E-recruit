@@ -1,5 +1,9 @@
 <?php
 
+/*
+ *   Author: Samuel de Souza Silva
+ */
+ 
 class Usuario{
 
 	public $id;
